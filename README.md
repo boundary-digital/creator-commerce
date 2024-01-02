@@ -21,10 +21,7 @@ The `src/` folder only requires one file: `index.ts`. The folders `components/`,
 
 ## Configuration
 
-In `./wfconfig.js` there are 3 configurable options:
-
-- `bundleName`: name of bundle in` dist/` folder
-- `cloudPath`: path to cloud folder on your machine for dev copy of bundle
+Create `.env` file with `CLOUD_PATH` variable to your desired cloud sync service.
 
 ### CSS
 
@@ -39,6 +36,7 @@ Webpack watch mode will include source map in the inline bundle (resulting in la
 Use services like Dropbox or Google Drive. Change the link for Dropbox inside Webflow custom code section as follows:
 
 Default: `https://www.dropbox.com/s/asdfdgsvgcvsf23/app.js?dl=0`
+
 Webflow-ready: `<script src="https://dl.dropboxusercontent.com/s/asdfdgsvgcvsf23/app.js"></script>`
 
 ## Contributing
