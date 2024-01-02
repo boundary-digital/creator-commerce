@@ -1,0 +1,30 @@
+{
+	"name": "creator-commerce",
+	"version": "1.0.0",
+	"description": "Custom Code for Creator Commerce",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --config webpack.prod.js",
+		"watch": "webpack --watch --config webpack.dev.js"
+	},
+	"author": "Philipp Soldunov",
+	"devDependencies": {
+		"@babel/core": "^7.20.12",
+		"@babel/preset-env": "^7.20.2",
+		"babel-loader": "^9.1.2",
+		"copy-webpack-plugin": "^11.0.0",
+		"css-loader": "^6.7.3",
+		"sass": "^1.57.1",
+		"sass-loader": "^13.2.0",
+		"style-loader": "^3.3.1",
+		"ts-loader": "^9.4.2",
+		"typescript": "^4.9.4",
+		"webpack": "^5.75.0",
+		"webpack-cli": "^5.0.1",
+		"webpack-shell-plugin-next": "^2.3.1"
+	},
+	"dependencies": {
+		"swiper": "^10.2.0",
+		"dotenv": "^10.0.0"
+	}
+}
